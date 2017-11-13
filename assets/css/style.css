@@ -1,0 +1,110 @@
+* {
+	/*border: 1px red solid;*/
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Maven Pro', sans-serif;
+	color: #1593A2;
+}
+
+body {
+	background: #F2FFE3;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+	background: #1B4869;
+}
+
+header h1{
+	width: 200px;
+	height: 60px;
+	float: left;
+	padding: 0px;
+	margin-left: 125px;
+	text-align: center;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 300px;	
+	margin: 0px 0px 0px 460px;
+	float: left;
+}
+
+header nav li {
+	float: right;
+	padding: 10px;
+	list-style-type: none;
+}
+
+header nav li a {
+	text-decoration: none;
+	transition: color 0.25s;
+}
+
+.wrapper {
+	width: 960px;
+	clear: left;
+	margin: 40px 0px 0px 125px;
+/*	padding: 40px 0px 0px 125px;*/
+}
+
+.main {
+	width: 648px;
+	float: left;
+	display: inline-block;
+	border: 1px #1B4869 solid;
+
+}
+
+.main img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.main h2{
+	padding: 20px 0px 10px 0px;
+	font-size: 36px;
+}
+
+.main p {
+}
+
+.sidebar {
+	width: 268px;
+	float: left;
+	margin-left: 40px;
+	display: inline-block;
+	border: 1px #1B4869 solid;
+}
+
+.sidebar h3 {
+	text-align: center;
+	background: #1B4869;
+}
+
+.sidebar img {
+	height: 55px;
+	width: 55px;
+	float: left;
+	position: inline-block;
+	padding: 15px;
+	vertical-align: center;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	background-color: #1B4869;
+}
+
+footer p{
+	font-size: 12px;
+	padding: 34px 0px 34px 0px;
+}
