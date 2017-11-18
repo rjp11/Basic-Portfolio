@@ -148,6 +148,8 @@ header nav li a {
 	font-family: 'Maven Pro', sans-serif;
 	color: #225480;
 	font-size: 20px;
+	height: 40px;
+	padding-top: 10px;
 }
 
 .sidebar .line {
