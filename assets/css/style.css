@@ -1,14 +1,9 @@
-* {
-	/*border: 1px red solid;*/
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Maven Pro', sans-serif;
-	color: #225480;
-}
-
 html, body {
 	height: 100%;
-	margin: 0px;
+}
+
+*{
+	box-sizing: border-box;
 }
 
 body {
@@ -27,29 +22,36 @@ header h1{
 	width: 250px;
 	height: 80px;
 	float: left;
+	font-family: 'Maven Pro', sans-serif;
 	font-size: 36px;
-	padding-top: 15px;
+	padding-top: 20px;
 	margin-left: 125px;
 	text-align: center;
 	color: #225480;
 	background: #DEDEDE;
+	position: relative;
 }
 
 header nav {
 	display: inline-block;
 	vertical-align: middle;
-	width: 300px;	
-	margin: 0px 0px 0px 460px;
-	float: left;
+	width: 300px;
+	height: 40px;
+	margin: 30px 0px 20px 0px;
+	float: right;
+	position: absolute;
+	left: 785px;
+
 }
 
 header nav li {
 	float: right;
-	padding: 10px;
+	padding-left: 10px;
 	list-style-type: none;
 }
 
 header nav li a {
+	font-family: 'Maven Pro', sans-serif;
 	text-decoration: none;
 	color: #DEDEDE;
 	transition: color 0.25s;
@@ -59,12 +61,12 @@ header nav li a {
 	width: 960px;
 	clear: left;
 	margin: 40px 0px 0px 125px;
-	min-height: 100%;
 	padding-bottom: 80px;
+	min-height: 100%;
 }
 
 .main {
-	width: 648px;
+	width: 650px;
 	float: left;
 	display: inline-block;
 	border: 1px #225480 solid;
@@ -75,7 +77,9 @@ header nav li a {
 
 .maincontent {
 	width: 600px;
+	font-family: 'Maven Pro', sans-serif;
 	margin-left: 25px;
+	position: relative;
 }
 
 .main .underline {
@@ -93,19 +97,45 @@ header nav li a {
 
 .main h2{
 	padding: 20px 0px 10px 0px;
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
 	font-size: 36px;
 }
 
 .main p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.portfolio img {
+	width: 270px;
+	z-index: 100;
+}
+
+.portfolio h4{
+	position: absolute;
+	background: #DEDEDE;
+	height: 40px;
+	color: #225480;
+	font-size: 28px;
+	bottom: 0px;
+	z-index: 200;
 }
 
 .sidebar {
-	width: 268px;
+	width: 270px;
 	float: left;
 	margin-left: 40px;
+	font-family: 'Maven Pro', sans-serif;
 	display: inline-block;
 	border: 1px #1B4869 solid;
 	background: #DEDEDE;
+}
+
+.sidebar a{
+	text-decoration: none;
 }
 
 .sbcontent{
@@ -115,8 +145,9 @@ header nav li a {
 
 .sidebar h3 {
 	text-align: center;
-	padding-top: 4px;
-	margin-bottom: 4px;
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 20px;
 }
 
 .sidebar .line {
@@ -126,17 +157,24 @@ header nav li a {
 }
 
 .sbimg{
-	width: 70px;
 	float: left;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 5px;
 }
 
 .sidebar img {
 	height: 60px;
 	width: 60px;
-	margin-left: 10px;
+	border-radius: 15%;
 	vertical-align: center;
+}
+
+#link{
+	margin-left: 10px;
+}
+
+#stack {
+	margin-left: 10px;
 }
 
 footer {
@@ -146,10 +184,12 @@ footer {
 	text-align: center;
 	background-color: #1B4869;
 	margin-top: -80px;
+	z-index: 200;
 }
 
 footer p{
 	font-size: 12px;
+	font-family: 'Maven Pro', sans-serif;
 	padding: 34px 0px 34px 0px;
 	color: #DEDEDE;
 }
