@@ -10,6 +10,7 @@ body {
 	background-image: url(../images/grey_wash_wall.png)
 }
 
+/*Styling for the header on all pages*/
 header {
 	width: 100%;
 	height: 80px;
@@ -30,6 +31,7 @@ header h1{
 	color: #225480;
 	background: #DEDEDE;
 	position: relative;
+	border-radius: 5px;
 }
 
 header nav {
@@ -57,6 +59,7 @@ header nav li a {
 	transition: color 0.25s;
 }
 
+/*Styling for the main conent on all pages*/
 .wrapper {
 	width: 960px;
 	clear: left;
@@ -72,7 +75,7 @@ header nav li a {
 	border: 1px #225480 solid;
 	background: #DEDEDE;
 	margin-bottom: 40px;
-
+	border-radius: 5px;
 }
 
 .maincontent {
@@ -109,9 +112,11 @@ header nav li a {
 	line-height: 20px;
 }
 
+/*Styling for portfolion.html*/
 .portfolio img {
 	width: 270px;
 	z-index: 100;
+	border-radius: 5px;
 }
 
 .portfolio h4{
@@ -124,14 +129,52 @@ header nav li a {
 	z-index: 200;
 }
 
+/*Styling for contact.html*/
+label {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	font-size: 20px;
+}
+
+.input {
+	margin: 15px 0px;
+}
+
+input, textarea {
+	font-family: 'Maven Pro', sans-serif;
+	color: #225480;
+	border: 1px solid #225480;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.button {
+	background: #225480;
+	height: 40px;
+	width: 120px;
+	padding: 12px;
+	font-size: 16px;
+	text-align: center;
+	color: #DEDEDE;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+.padding{
+	height: 20px;
+}
+
+/*Styling for the sidebar for all pages*/
 .sidebar {
 	width: 270px;
 	float: left;
 	margin-left: 40px;
 	font-family: 'Maven Pro', sans-serif;
 	display: inline-block;
-	border: 1px #1B4869 solid;
+	border: 1px #225480 solid;
 	background: #DEDEDE;
+	border-radius: 5px;
 }
 
 .sidebar a{
@@ -161,7 +204,7 @@ header nav li a {
 .sbimg{
 	float: left;
 	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .sidebar img {
@@ -179,12 +222,13 @@ header nav li a {
 	margin-left: 10px;
 }
 
+/*Styling for the footer on all pages*/
 footer {
 	float: left;
 	width: 100%;
 	height: 80px;
 	text-align: center;
-	background-color: #1B4869;
+	background-color: #225480;
 	margin-top: -80px;
 	z-index: 200;
 }
