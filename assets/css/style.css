@@ -48,7 +48,7 @@ header nav {
 
 header nav li {
 	float: right;
-	padding-left: 10px;
+	padding-left: 20px;
 	list-style-type: none;
 }
 
@@ -57,6 +57,10 @@ header nav li a {
 	text-decoration: none;
 	color: #DEDEDE;
 	transition: color 0.25s;
+}
+
+header a:hover{
+	color: #d08142;
 }
 
 /*Styling for the main conent on all pages*/
@@ -72,7 +76,7 @@ header nav li a {
 	width: 650px;
 	float: left;
 	display: inline-block;
-	border: 1px #225480 solid;
+	border: 1px #2h-p25480 solid;
 	background: #DEDEDE;
 	margin-bottom: 40px;
 	border-radius: 5px;
@@ -82,7 +86,7 @@ header nav li a {
 	width: 600px;
 	font-family: 'Maven Pro', sans-serif;
 	margin-left: 25px;
-	position: relative;
+	/*position: relative;*/
 }
 
 .main .underline {
@@ -108,25 +112,84 @@ header nav li a {
 .main p {
 	font-family: 'Maven Pro', sans-serif;
 	color: #225480;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 27px;
 }
 
-/*Styling for portfolion.html*/
+/*Styling for portfolio.html*/
 .portfolio img {
-	width: 270px;
+	width: 280px;
 	z-index: 100;
 	border-radius: 5px;
+	margin-bottom: 40px;
 }
 
 .portfolio h4{
-	position: absolute;
-	background: #DEDEDE;
+	background: #225480;
 	height: 40px;
-	color: #225480;
+	width: 280px;
+	color: #DEDEDE;
 	font-size: 28px;
 	bottom: 0px;
-	z-index: 200;
+	z-index: 500;
+	text-align: center;
+	border: 1px solid #225480;
+	padding-top: 4px;
+}
+
+.hangman {
+	position: relative;
+	z-index: 100;
+}
+
+#hmtitle {
+	position: absolute;
+	left: 0px;
+	top: 165px;
+}
+
+.rpg {
+	position: relative;
+	right: -25px;
+	top: 0px;
+}
+
+#rpgtitle {
+	position: absolute;
+	right: 25px;
+	top: 165px;
+}
+
+.trivia {
+	clear: left;
+	position: relative;
+}
+
+#triviatitle {
+	position: absolute;
+	top: 165px;
+}
+
+.rutgers{
+	position: relative;
+	top: 0px;
+	right: -25px;
+}
+
+#rutgerstitle{
+	position: absolute;
+	top: 165px;
+	right: 25px;
+}
+
+.rps {
+	clear: left;
+	position: relative;
+}
+
+#rpstitle {
+	position: absolute;
+	top: 165px;
 }
 
 /*Styling for contact.html*/
@@ -153,12 +216,16 @@ input, textarea {
 	background: #225480;
 	height: 40px;
 	width: 120px;
-	padding: 12px;
+	padding: 10px;
 	font-size: 16px;
 	text-align: center;
 	color: #DEDEDE;
 	border: 1px solid #DEDEDE;
 	border-radius: 5px;
+}
+
+.button:hover{
+	background: #d08142;
 }
 
 .padding{
@@ -171,7 +238,7 @@ input, textarea {
 	float: left;
 	margin-left: 40px;
 	font-family: 'Maven Pro', sans-serif;
-	display: inline-block;
+	display: block;
 	border: 1px #225480 solid;
 	background: #DEDEDE;
 	border-radius: 5px;
@@ -229,7 +296,7 @@ footer {
 	height: 80px;
 	text-align: center;
 	background-color: #225480;
-	margin-top: -80px;
+	margin-top: 0px;
 	z-index: 200;
 }
 
